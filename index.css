@@ -1,18 +1,59 @@
 body{
     background-color: #344953;
+    margin-top: 150px;
 }
 
 h1{
-    color: #344953;
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
 }
 
-.form,
-.grettings {
+li{
+    color: transparent;
+    margin-right: 50px;
+}
+
+span{
+    color:white;
+    font-weight: 200;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
+
+input{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+}
+
+.design{
+    text-align: center;
+}
+
+.form, .grettings {
     display: none;
 }
 
 .showing {
     display: block;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.weather{
+    color: gray;
+    margin-top: 100px;
+    font-weight: 100;
 }
 
 @keyframes fadeIn{
